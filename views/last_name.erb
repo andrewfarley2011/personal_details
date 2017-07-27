@@ -1,0 +1,10 @@
+
+Hey <%= name %>, what is your last name?
+
+<form method="post" action="/last_name">
+	<input type="text" name="last_name">
+	<input type="hidden" name="user_name" value = <%= name %>>
+	<input type = "submit">
+</form>
+
+
